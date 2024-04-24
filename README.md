@@ -1,5 +1,6 @@
 **Assignment_2_ADS**
 This repository is my example implementation of Arraylist and LinkedList.
+
 ArrayList
 The MyArrayList class implements the MyList interface and provides functionality similar to Java's built-in ArrayList class. It dynamically resizes its internal array to accommodate adding elements beyond its initial capacity. It supports operations such as adding, getting, setting, removing elements, as well as checking for the existence of an element, finding its index, and more.
 
