@@ -155,10 +155,10 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
         return indexOf(item) != -1;
     }
 
-    @Override
     @SuppressWarnings("unchecked")
+    @Override
     public T[] toArray() {
-        T[] array = (T[]) new Object[size];
+        T[] array = (T[]) new Comparable[size];
         Node<T> node = head;
         for (int i = 0; i < size; i++) {
             array[i] = node.item;
@@ -166,6 +166,7 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
         }
         return array;
     }
+
 
     @Override
     public void clear() {
