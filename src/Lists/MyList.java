@@ -17,6 +17,7 @@ public interface MyList<T> extends Iterable<T> {
     T[] toArray();
     void clear();
     int size();
+    void sort();
 
     int lastIndexOf(T item);
 }
