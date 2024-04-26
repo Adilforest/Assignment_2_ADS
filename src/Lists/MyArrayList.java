@@ -66,13 +66,16 @@ public class MyArrayList<T extends Object & Comparable<T>> implements MyList<T> 
     }
 
     @Override
-    public void remove(int index){
+    public T remove(int index){
         checkIndex(index);
+        T removedItem = array[index];
         for(int i = index + 1; i < size; i++){
             array[i - 1] = array[i];
         }
         size--;
+        return removedItem;
     }
+
 
     @Override
     public void removeFirst(){
@@ -158,6 +161,16 @@ public class MyArrayList<T extends Object & Comparable<T>> implements MyList<T> 
     public Iterator<T> iterator(){
         return new MyArrayListIterator();
     }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+    public void swap(int index, int parentIndex) {
+        T temp = array[index];
+        array[index] = array[parentIndex];
+        array[parentIndex] = temp;
+    }
+
     private class MyArrayListIterator implements Iterator<T>{
         private int currentIndex = 0;
         @Override

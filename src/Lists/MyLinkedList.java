@@ -80,15 +80,16 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
     }
 
     @Override
-    public void remove(int index) {
+    public T remove(int index) {
         if (index == 0) {
             removeFirst();
-            return;
+            return null;
         }
         Node<T> node = getNodeAt(index);
         node.prev.next = node.next;
         node.next.prev = node.prev;
         size--;
+        return null;
     }
 
     @Override
@@ -196,6 +197,11 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
     public Iterator<T> iterator() {
         return new Itr();
     }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
 
 
     private class Itr implements Iterator<T> {
