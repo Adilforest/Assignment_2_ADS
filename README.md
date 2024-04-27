@@ -16,5 +16,5 @@ The Main class contains methods to test the functionality of both MyArrayList an
 How to Run
 To run the tests and see the output, execute the Main class. Ensure that you have Java installed on your system and set up the classpath correctly.
 
-java Main
+```gradle test```
             

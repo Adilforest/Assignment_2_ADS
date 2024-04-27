@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Assignment_2_ADS.iml" filepath="$PROJECT_DIR$/Assignment_2_ADS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Assignment_2_ADS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Assignment_2_ADS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Assignment_2_ADS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Assignment_2_ADS.test.iml" />
     </modules>
   </component>
 </project>

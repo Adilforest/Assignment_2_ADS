@@ -4,13 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="Final commit)">
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/MyList.java" afterDir="false" />
+    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="documentation">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_2_ADS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2_ADS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lists/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyMinHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment_2_ADS" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment_2_ADS" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Assignment_2_ADS" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,15 +101,16 @@
     "Application.TestLinkedList.executor": "Run",
     "Application.TestStack.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "Gradle.Assignment_2_ADS [test].executor": "Run",
     "JUnit.MyMinHeapTest.executor": "Run",
     "JUnit.MyQueueTest.executor": "Run",
     "JUnit.MyStackTest.executor": "Run",
+    "Maven.Unknown [install].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
@@ -65,9 +122,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/adilforest/Downloads/Assignment_2_ADS/src/Main.java",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,11 +133,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Lists" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Assignment_2_ADS [test]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Assignment_2_ADS" />
@@ -87,18 +152,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Assignment_2_ADS [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Assignment_2_ADS [test]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-abbd5a8d" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,7 +196,9 @@
       <workItem from="1713854058794" duration="796000" />
       <workItem from="1713854889903" duration="5927000" />
       <workItem from="1713911578908" duration="9720000" />
-      <workItem from="1713995267758" duration="11858000" />
+      <workItem from="1713995267758" duration="12315000" />
+      <workItem from="1714195691670" duration="494000" />
+      <workItem from="1714196189173" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <option name="closed" value="true" />
@@ -181,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714173786838</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="documentation">
+      <option name="closed" value="true" />
+      <created>1714195347852</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714195347852</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +294,8 @@
     <MESSAGE value="MyArrayList" />
     <MESSAGE value=")" />
     <MESSAGE value="Final commit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit)" />
+    <MESSAGE value="documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="documentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
