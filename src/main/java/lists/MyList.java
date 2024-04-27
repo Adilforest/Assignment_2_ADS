@@ -137,7 +137,7 @@ public interface MyList<T extends Comparable<T>> extends Iterable<T> {
      * Sorts the elements in the list in ascending order.
      * The sorting algorithm used is implementation-dependent.
      */
-    void sort();
+    void sort(String algorithm);
 
     /**
      * Searches for the last occurrence of the specified object in the list

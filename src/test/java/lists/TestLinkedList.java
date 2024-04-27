@@ -25,7 +25,7 @@ public class TestLinkedList{
         System.out.println("Size of the list after removals: " + list.size());
 
         list.add(15);
-        list.sort();
+        list.sort("quick");
         System.out.println("Sorted list: " + list);
 
         list.add(10);

@@ -6,10 +6,12 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
     private int size;
     private Node<T> head;
     private Node<T> tail;
+    private MyArrayList<T> sorter;
 
     public MyLinkedList() {
         head = tail = null;
         size = 0;
+        sorter = new MyArrayList<>();
     }
 
     @Override
@@ -105,16 +107,15 @@ public class MyLinkedList<T extends Object & Comparable<T>> implements MyList<T>
     }
 
     @Override
-    public void sort() {
+    public void sort(String alghorithm) {
         boolean swapped;
-        Node<T> node;
 
         if (head == null)
             return;
 
         do {
             swapped = false;
-            node = head;
+            Node<T> node = head;
 
             while (node.next != null) {
                 if (node.item.compareTo(node.next.item) > 0) {

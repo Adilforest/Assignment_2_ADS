@@ -17,12 +17,20 @@ class MyMinHeapTest {
 
     @Test
     void testInsertAndFindMin() {
+        long startTime = System.currentTimeMillis();
+
         minHeap.insert(10);
         minHeap.insert(5);
         minHeap.insert(15);
         minHeap.insert(3);
 
-        assertEquals(3, minHeap.findMin());
+        int min = minHeap.findMin();
+
+        long endTime = System.currentTimeMillis();
+        double timeInSeconds = (endTime - startTime) / 1000.0; // Преобразование миллисекунд в секунды
+        System.out.println("Time taken: " + timeInSeconds + " seconds");
+
+        assertEquals(3, min);
     }
 
     @Test

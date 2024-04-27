@@ -118,7 +118,22 @@ public class MyArrayList<T extends Object & Comparable<T>> implements MyList<T> 
         return arr;
     }
     @Override
-    public void sort() {
+    public void sort(String algorithm) {
+        switch (algorithm) {
+            case "bubble":
+                bubbleSort();
+                break;
+            case "quick":
+                quickSort(0, size - 1);
+                break;
+            case "merge":
+                mergeSort(0, size - 1);
+                break;
+            default:
+                System.out.println("Unsupported sorting algorithm.");
+        }
+    }
+    private void bubbleSort() {
         boolean swapped;
         for (int i = 0; i < size - 1; i++) {
             swapped = false;
@@ -133,6 +148,76 @@ public class MyArrayList<T extends Object & Comparable<T>> implements MyList<T> 
                 break;
         }
     }
+    private int partition(int low, int high) {
+        T pivot = array[high];
+        int i = (low - 1);
+        for (int j = low; j < high; j++) {
+            if (array[j].compareTo(pivot) <= 0) {
+                i++;
+                T temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+        T temp = array[i + 1];
+        array[i + 1] = array[high];
+        array[high] = temp;
+        return i + 1;
+    }
+
+    private void quickSort(int low, int high) {
+        if (low < high) {
+            int pi = partition(low, high);
+            quickSort(low, pi - 1);
+            quickSort(pi + 1, high);
+        }
+    }
+    private void mergeSort(int l, int r) {
+        if (l < r) {
+            int m = (l + r) / 2;
+            mergeSort(l, m);
+            mergeSort(m + 1, r);
+            merge(l, m, r);
+        }
+    }
+    private void merge(int l, int m, int r) {
+        int n1 = m - l + 1;
+        int n2 = r - m;
+
+        T L[] = (T[]) new Comparable[n1];
+        T R[] = (T[]) new Comparable[n2];
+
+        for (int i = 0; i < n1; ++i)
+            L[i] = array[l + i];
+        for (int j = 0; j < n2; ++j)
+            R[j] = array[m + 1 + j];
+
+        int i = 0, j = 0;
+        int k = l;
+        while (i < n1 && j < n2) {
+            if (L[i].compareTo(R[j]) <= 0) {
+                array[k] = L[i];
+                i++;
+            } else {
+                array[k] = R[j];
+                j++;
+            }
+            k++;
+        }
+
+        while (i < n1) {
+            array[k] = L[i];
+            i++;
+            k++;
+        }
+
+        while (j < n2) {
+            array[k] = R[j];
+            j++;
+            k++;
+        }
+    }
+
     @Override
     public void clear(){
         for(int i = 0; i < size; i++){

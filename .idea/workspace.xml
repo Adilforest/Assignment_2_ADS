@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="documentation and tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lists/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lists/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lists/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/types/MyMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lists/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/types/MyMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyMinHeapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +88,7 @@
     "Application.TestStack.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "Gradle.Assignment_2_ADS [test].executor": "Run",
+    "Gradle.MyMinHeapTest.executor": "Run",
     "JUnit.MyMinHeapTest.executor": "Run",
     "JUnit.MyQueueTest.executor": "Run",
     "JUnit.MyStackTest.executor": "Run",
@@ -124,7 +131,7 @@
       <recent name="Lists" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Assignment_2_ADS [test]">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Assignment_2_ADS" />
@@ -178,7 +185,7 @@
       <workItem from="1713911578908" duration="9720000" />
       <workItem from="1713995267758" duration="12315000" />
       <workItem from="1714195691670" duration="494000" />
-      <workItem from="1714196189173" duration="2470000" />
+      <workItem from="1714196189173" duration="8518000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <option name="closed" value="true" />
@@ -268,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714198011650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="documentation and tests">
+      <option name="closed" value="true" />
+      <created>1714202955548</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714202955548</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
