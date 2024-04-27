@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="documentation">
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_2_ADS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2_ADS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lists/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/TestArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lists/TestLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyMinHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyMinHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/types/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/types/MyStackTest.java" afterDir="false" />
+    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="documentation and tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +178,7 @@
       <workItem from="1713911578908" duration="9720000" />
       <workItem from="1713995267758" duration="12315000" />
       <workItem from="1714195691670" duration="494000" />
-      <workItem from="1714196189173" duration="1481000" />
+      <workItem from="1714196189173" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <option name="closed" value="true" />
@@ -272,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714195347852</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="documentation and tests">
+      <option name="closed" value="true" />
+      <created>1714197982538</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714197982538</updated>
+    </task>
+    <task id="LOCAL-00011" summary="documentation and tests">
+      <option name="closed" value="true" />
+      <created>1714198011650</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714198011650</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +291,8 @@
     <MESSAGE value=")" />
     <MESSAGE value="Final commit)" />
     <MESSAGE value="documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="documentation" />
+    <MESSAGE value="documentation and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="documentation and tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
