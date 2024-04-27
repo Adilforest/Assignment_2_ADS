@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment=")">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyMinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyMinHeapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Types/MyStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_2_ADS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2_ADS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lists/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="9a4bbb28-1042-4ff8-b956-52e0853f3426" name="Changes" comment="Final commit)">
+      <change beforePath="$PROJECT_DIR$/src/Lists/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lists/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +115,7 @@
       <workItem from="1713854058794" duration="796000" />
       <workItem from="1713854889903" duration="5927000" />
       <workItem from="1713911578908" duration="9720000" />
-      <workItem from="1713995267758" duration="10364000" />
+      <workItem from="1713995267758" duration="11858000" />
     </task>
     <task id="LOCAL-00001" summary="try">
       <option name="closed" value="true" />
@@ -175,7 +165,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714171306802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final commit)">
+      <option name="closed" value="true" />
+      <created>1714173775173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714173775173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final commit)">
+      <option name="closed" value="true" />
+      <created>1714173786838</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714173786838</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +202,8 @@
     <MESSAGE value="try" />
     <MESSAGE value="MyArrayList" />
     <MESSAGE value=")" />
-    <option name="LAST_COMMIT_MESSAGE" value=")" />
+    <MESSAGE value="Final commit)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
